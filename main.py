@@ -29,3 +29,54 @@
 # # print(a.capitalize())   #capitalise starting letter ko capital karke baki sb small kardeta
 # # print(a.count("Teja"))
 # print(a.endswith("Reddy"))   #ye value Boolean(true aur false) mai hi deta ...agar endswith(teja) hai toh true ...if not then false
+
+
+# x = int(input("enter your number which suits x : "))
+
+# match x:
+
+#     case 0 :
+#         print("x is zero")
+
+#     case 4:
+#         print("case is 4")
+
+#     case _:
+#         print(x)
+
+
+# list = [ "red" , "yellow" , "orange" , "purple"]
+
+# for i in list :
+#     print(i)
+#     for t in i:
+#         print(t)
+
+
+# i = int(input("enter your first number: "))
+# while (i<=300):
+#     print(i)
+#     i += 1            #wile loop ka method
+
+# i = int(input("enter your first number: "))
+# while (i>0):
+#     print(i)  #minus one esach variable
+#     i -= 1
+
+
+# for i in range(16):
+#     print("5 X", i+1 ,"=" , 5 * (i +1))
+#     if (i==9):
+#       break
+
+
+# for i in range(16):
+#     if(i>=12):
+#         print("Hello World")
+#         continue
+# print("5 X", i+1 ,"=" , 5 * (i +1))
+
+
+# list = ["Harry" , 34 , 54 , 424 , "teja"]
+# # print(list)
+# print(list[:-4])

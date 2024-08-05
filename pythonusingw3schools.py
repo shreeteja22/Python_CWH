@@ -15,10 +15,11 @@
 #   print(x) 
 
 
-a = int(input("Enter your Age: "))
-print("Your Age is", a)
+# a = int(input("Enter your Age: "))
+# print("Your Age is", a)
 
-if a > 18 and a < 60:
-    print("You can drive")
-else:
-    print("You cannot drive")
+# if a > 18 and a < 60:
+#     print("You can drive")
+# else:
+#     print("You cannot drive")
+
