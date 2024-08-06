@@ -80,3 +80,34 @@
 # list = ["Harry" , 34 , 54 , 424 , "teja"]
 # # print(list)
 # print(list[:-4])
+# l = [1,3,2,4,24,6,775,48,24]
+# print(l)
+# l.append(92)
+# l.sort() if you want descending order use reverse=true
+# print(l.index(4))
+# print(l)
+# m = [234,54,32]
+# l.extend(m)
+# print(l)
+
+
+
+# tuples
+# tup = (1,2,3,4,5)
+# print(len(tup))
+# tup2 = tup[1:4]
+# print(tup2)
+# res = tup.index(3)
+# print(res)
+
+print("Lets play Kaun Banega Crorepati")
+question = ("The Independence Day is celebrated on which day")
+options = (" A. Sep 8, B. 26 Jan, C. Aug 15, D. Nov 26")
+print(question)
+print(options)
+
+answer = input("Enter the correct option: ")
+if(answer == "C" ):
+  print("Correct answer You win 1 Crore Ruppes")
+else:
+  print("Correct option is CBetter luck next time")
