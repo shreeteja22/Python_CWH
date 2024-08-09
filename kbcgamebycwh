@@ -8,4 +8,4 @@ answer = input("Enter the correct option: ")
 if(answer == "C" ):
   print("Correct answer You win 1 Crore Ruppes")
 else:
-  print("Correct option is CBetter luck next time")
+  print("Correct option is C!! Better luck next time")
