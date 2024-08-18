@@ -43,6 +43,3 @@
 
 #     case _:
 #         print(x)
-
-#11.08.2024
-# list = [ "red" , "yellow" , "orange" , "purple"]

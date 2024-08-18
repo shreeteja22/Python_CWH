@@ -1,3 +1,4 @@
+# list = [ "red" , "yellow" , "orange" , "purple"]
 list = ["Harry" , 34 , 54 , 424 , "teja"]
 print(list)
 print(list[:-4])

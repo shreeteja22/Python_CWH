@@ -10,4 +10,4 @@ for index,number in enumerate(a):    #enumerate just makes the work of adding pl
     print(number)
     if (index==4):
         print("Enumerate function")
-    # index += 1.........(no need of this)
+    # index += 1.........(no need of this)r
