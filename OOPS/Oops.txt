@@ -1,4 +1,8 @@
 LIST OF FOLDERS AND WHAT HARRY TAUGHT
 1. Classes & Objects
 2. Constructors
-3. 
+3. Decorators
+4. getters and setters
+5. inheritance
+6. access modifires
+7. static methods
