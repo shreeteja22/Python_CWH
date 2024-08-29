@@ -11,3 +11,6 @@ class math:
 a = math(5)
 print(a.num)
 print(a.sum(945,24))
+
+
+#self ke bina program mai error aata so to use def function without self try static method
