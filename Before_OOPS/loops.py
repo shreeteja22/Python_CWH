@@ -1,11 +1,11 @@
-for i in list :
-    print(i)
-    for t in i:
-        print(t)
+# for i in list :
+#     print(i)
+#     for t in i:
+#         print(t)
 
 
 i = int(input("enter your first number: "))
-while (i<=300):
+while (i<=30):
     print(i)
     i += 1            #wile loop ka method
 

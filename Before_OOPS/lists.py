@@ -6,6 +6,11 @@ l = [1,3,2,4,24,6,775,48,24]
 print(l)
 l.append(92)
 l.sort()           #(if you want descending order use reverse=true)
+'''
+thislist = ["orange", "mango", "kiwi", "pineapple", "banana"]
+thislist.sort(reverse = True)
+print(thislist)
+'''
 print(l.index(4))
 print(l)
 m = [234,54,32]

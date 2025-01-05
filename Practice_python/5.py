@@ -1,0 +1,5 @@
+t1 = ("harry","teja","ram","klh")
+l1 = list(t1)
+l1.append("Editor")
+t1 = tuple(l1)
+print(t1)
