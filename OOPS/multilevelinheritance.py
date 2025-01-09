@@ -1,30 +1,30 @@
-class Animal:
-    def __init__(self,name,species):
-        self.name = name
-        self.species = species
+# class Animal:
+#     def __init__(self,name,species):
+#         self.name = name
+#         self.species = species
     
-    def show(self):
-        print(f"Name : {self.name}")
-        print(f"Species : {self.species}")
+#     def show(self):
+#         print(f"Name : {self.name}")
+#         print(f"Species : {self.species}")
 
-class Dog(Animal):
-    def __init__(self,name,breed):
-        Animal.__init__(self,name,species = "Dog")
-        self.breed = breed
-    def show(self):
-            Animal.show(self)
-            print(f"Breed : {self.breed}")
+# class Dog(Animal):
+#     def __init__(self,name,breed):
+#         Animal.__init__(self,name,species = "Dog")
+#         self.breed = breed
+#     def show(self):
+#             Animal.show(self)
+#             print(f"Breed : {self.breed}")
 
-class Rotwheeler(Dog):
-    def __init__(self,name,color):
-        Dog.__init__(self,name,breed = "Rotwheeler")
-        self.color = color
-    def show(self):
-        Dog.show(self)
-        print(f"Color : {self.color}")
+# class Rotwheeler(Dog):
+#     def __init__(self,name,color):
+#         Dog.__init__(self,name,breed = "Rotwheeler")
+#         self.color = color
+#     def show(self):
+#         Dog.show(self)
+#         print(f"Color : {self.color}")
 
-a1 = Dog("Rocky","Black")
-a1.show()
+# a1 = Dog("Rocky","Black")
+# a1.show()
 
 
 
